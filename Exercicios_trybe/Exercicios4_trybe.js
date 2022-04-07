@@ -1,3 +1,5 @@
+//Exercício 4
+
 function getLowerNumber(numbers) {
   let lowerNumber = numbers[0]; // atribui maxNumber ao primeiro valor do array
 
