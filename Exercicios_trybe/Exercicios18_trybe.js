@@ -7,17 +7,20 @@ function arrayPosNeg() {
 
   for (var index = 0; index < array.length; index += 1) {
     if (array[index] < 0) {
-      arrayNegativo.push = array[index];
-      console.log(`Valor negativo ${arrayNegativo}`, array[index]);
+      arrayNegativo[index] = array[index];
+      arrayNegativo = arrayNegativo.filter(Number);
+      console.log(`Valores negativos: ${arrayNegativo}`);
     } else if (array[index] > 0) {
-      arrayPositivo.push = array[index];
-      console.log(`Valor positivo ${arrayPositivo}`, array[index]);
+      arrayPositivo[index] = array[index];
+      arrayPositivo = arrayPositivo.filter(Number);
+      console.log(`Valores positivos: ${arrayPositivo}`);
     }
-    console.log(arrayNegativo);
-    console.log(arrayPositivo);
+
   }
 
   return arrayPosNeg;
 }
 
 console.log(arrayPosNeg());
+console.log (arrayNegativo);
+console.log (arrayPositivo);
