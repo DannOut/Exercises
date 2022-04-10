@@ -4,11 +4,11 @@ function verificadorMaioridade() {
   for (let index = 0; index < idade.length; index++) {
     if (idade[index] >= 18) {
       let maior = [];
-      maior.push = idade[index];
+      maior = idade[index];
       console.log("MAIORIDADE", maior);
     } else if (idade[index] < 18) {
       let menor = [];
-      menor.push = idade[index];
+      menor = idade[index];
       console.log("MENORIDADE", menor);
     } else console.log("IDADE INCORRETA");
   }
