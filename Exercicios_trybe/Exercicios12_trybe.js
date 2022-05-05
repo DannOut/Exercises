@@ -7,6 +7,6 @@ function trasPraFrente(frase) {
                 for menor que 0 (primeiro valor do array), faça decremento de 1 até chegar a 0  */
     palavra += frase[index]; // palavra vai fazer um incremento da frase na posição index, que é o ultimo valor do array
   }
-  return palavra; //r            etorna a palavra de trás pra frente na variavel palavra
+  return palavra; //retorna a palavra de trás pra frente na variavel palavra
 }
 console.log(trasPraFrente("daniel")); // printa a variavel palavra
